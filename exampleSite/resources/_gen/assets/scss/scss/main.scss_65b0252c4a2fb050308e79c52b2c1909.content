@@ -75,18 +75,6 @@
   transform: translateX(1.4rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-mode="lit"]) {
-    --color-mode: 'dim';
-    --bg: var(--dark);
-    --text: var(--light);
-    --accent: var(--bubble);
-  }
-  :root:not([data-mode="lit"]) * {
-    box-shadow: none !important;
-  }
-}
-
 @keyframes showMenu {
   0% {
     top: -100%;
